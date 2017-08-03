@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --outFile ./dist/bundle.js ./src/index.ts"
+    "package": "tsc --outFile ./dist ./src/index.ts",
   },
   "repository": {
     "type": "git",
