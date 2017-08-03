@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepackage": "node ./scripts/clean && node ./scripts/setup",
-    "package": "tsc --outDir ./dist ./src/index.ts"
+    "package": "tsc --outDir ./lib ./src/index.ts"
   },
   "repository": {
     "type": "git",
